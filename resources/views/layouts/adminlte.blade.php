@@ -84,7 +84,12 @@
                                 <p>Clientes</p>
                             </a>
                     </li>
-
+                    <li class="nav-item">
+                        <a href="{{ route('ordenes.index') }}" class="nav-link {{ request()->routeIs('ordenes.*') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-clipboard-list"></i>
+                            <p>Órdenes de servicio</p>
+                        </a>
+                    </li>
                     {{-- Agrega más opciones aquí --}}
 
                 </ul>
