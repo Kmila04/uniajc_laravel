@@ -5,7 +5,7 @@ use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\UsuarioController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
 
 
